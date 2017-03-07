@@ -1,4 +1,24 @@
 /**
  * Created by dasco on 3/7/2017.
  */
-console.log('It works!');
+//String
+let myName = 'Drake';
+// myName = 20;
+
+//number
+let myAge : number= 20.5;
+// myAge = 'Drake';
+
+//boolean
+let hasHobbies: boolean = true;
+// hasHobbies = 1;
+
+// assign types
+
+let myRealAge: number;
+myRealAge = 27;
+// myRealAge = '27';
+
+//array
+let hobbies: any[] = ["Cooking", "Soccer"];
+hobbies = [100];
