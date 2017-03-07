@@ -17,3 +17,6 @@ myRealAge = 27;
 //array
 var hobbies = ["Cooking", "Soccer"];
 hobbies = [100];
+// hobbies = 100;
+// tuples
+var address = [99, "Superstreet"];

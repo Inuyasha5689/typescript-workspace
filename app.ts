@@ -22,3 +22,17 @@ myRealAge = 27;
 //array
 let hobbies: any[] = ["Cooking", "Soccer"];
 hobbies = [100];
+// hobbies = 100;
+
+// tuples
+let address: [string, number] = ["Superstreet", 99];
+
+// enum
+enum Color {
+    Gray, // 0
+    Green = 100, // 100
+    Blue = 2// 2
+}
+
+let myColor: Color = Color.Green;
+console.log(myColor);
