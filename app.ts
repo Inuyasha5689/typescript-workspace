@@ -66,6 +66,16 @@ console.log(multiply(2, 5));
 //function types
 let myMultiply: (val1: number, vale2: number) => number;
 // myMultiply = sayHello;
-myMultiply();
+// myMultiply();
 myMultiply = multiply;
 console.log(myMultiply(5, 2));
+
+// objects
+let userData: { name: string, age: number } = {
+    name: 'Drake',
+    age: 20
+};
+// userData = {
+//     a: 'Hello',
+//     b: 22
+// };
