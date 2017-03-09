@@ -64,4 +64,35 @@ var userData = {
 // userData = {
 //     a: 'Hello',
 //     b: 22
-// }; 
+// };
+// complex object
+var complex = {
+    data: [100, 3.99, 10],
+    output: function (all) {
+        return this.data;
+    }
+};
+var complex2 = {
+    data: [100, 3.99, 10],
+    output: function (all) {
+        return this.data;
+    }
+};
+// union types
+var myRealRealAge = 20;
+myRealRealAge = "20";
+// myRealRealAge = true;
+//check types
+var finalValue = "A string";
+if (typeof finalValue == "string") {
+    console.log("Final value is a number");
+}
+// never
+function neverReturns() {
+    throw new Error('An error!');
+}
+// Nullable Types
+var canBeNull = 12;
+canBeNull = null;
+var canAlsoBeNull;
+canAlsoBeNull = null;
